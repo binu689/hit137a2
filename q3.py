@@ -1,5 +1,13 @@
 import turtle
 
+print("Hint: To create a well-structured and visually balanced tree, consider the following:")
+print("- Left and right branch angles should ideally be between 15 and 45 degrees.")
+print("- Starting branch length should generally be at least 50 for a visible tree.")
+print("- Recursion depth should be at least 3 to create enough branching.")
+print("- Branch length reduction factor (%) should usually range from 50 to 80.")
+print("- Experiment with the values to achieve different tree shapes and sizes!\n")
+
+
 left_angle = int(input('Left branch angle: '))
 right_angle = int(input('Right branch angle: '))
 branch_length = int(input('Stating branch length: '))
