@@ -5,7 +5,7 @@ years = {}
 stations = {}
 
 # Load data
-for year in range(1987, 1991):
+for year in range(1987, 2005):
     with open(f'temperature_data/stations_group_{year}.csv') as f:
         reader = csv.reader(f)
         header = next(reader)  # Skip header
